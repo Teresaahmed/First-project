@@ -1,0 +1,147 @@
+body{
+    font-family: 'Domine', serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.h3{
+   font-family: 'EB Garamond', serif;
+   font-size: 25px;
+   margin-bottom: 30px;
+}
+.h33{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    
+}
+.h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+.row{
+   max-width: 1140px;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 0px;
+}
+ul{
+    margin-right: 180px;
+}
+.fa-solid{
+    height: px ;
+    color: rgb(240, 221, 221);
+    margin-left: 49px;
+    margin-right: 10px;
+}
+
+
+header{
+    background: url(kk/1st\ export.png);
+    height: 105vh;
+    width: 100%;
+    position: relative;
+    background-position: center top;
+    background-size: cover;
+    
+}
+.logo{
+    height: 60px;
+    width: auto;
+    margin-top: 39px;
+    float: left;
+    margin-left: 200px;
+}
+.main-nav{
+    float: right;
+}
+.main-nav li{
+display: inline-block;
+margin-top: 55px;
+margin-left:0px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 15px;
+
+    
+}
+.text-part{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: beige;
+}
+.btn{
+    background-color: rgb(226, 44, 11);
+    padding: 5px 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/*2nd part */
+h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+img{
+
+}
+.second-part{
+  display: flex;
+  text-align: center;
+}
+.half-width{
+    width: 50%;
+    padding-left:10%;
+}
+.half-width img{
+    width: 60%;
+    padding-right: 60px
+}
+.half-widths {
+    margin-right: 90px;
+    margin-top: 50px;
+}
+.second{
+    padding-left: 30px;
+}
+.three{
+    text-align: center;
+}
+p{
+    color: rgb(129, 125, 125);
+}
+.third{
+    margin-top: 20px;
+    text-align: center;
+}
+.half-widthss{
+    margin-left: 60px;
+    margin-top: 40px;
+    
+}
+.forth{
+    margin-top: 25px;
+}
+.btn2{
+    background-color: rgb(197, 27, 27);
+    padding: 4px 15px;
+    color: antiquewhite;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 90px;
+}
