@@ -2,6 +2,7 @@ body{
     font-family: 'Domine', serif;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 *{
     margin: 0;
@@ -9,39 +10,27 @@ body{
 }
 .h3{
    font-family: 'EB Garamond', serif;
-   font-size: 25px;
+   font-size: 45px;
    margin-bottom: 30px;
 }
 .h33{
     font-family: 'Dancing Script', cursive;
-    font-size: 40px;
+    font-size: 50px;
     
 }
 .h1{
     font-family: 'Dancing Script', cursive;
-    font-size: 70px;
+    font-size: 100px;
 }
-.row{
-   max-width: 1140px;
-    margin: 0 auto;
-}
-ul li{
-    list-style: none;
-    text-decoration: none;
-    margin-right: 30px;
-    margin-left: 0px;
-}
-ul{
-    margin-right: 180px;
-}
+
+
 .fa-solid{
-    height: px ;
-    color: rgb(240, 221, 221);
-    margin-left: 49px;
-    margin-right: 10px;
+    color: rgb(247, 243, 243);
+    margin-left: 30px;
+    margin-right: 60px;
+    font-size: 22px;
+   
 }
-
-
 header{
     background: url(kk/1st\ export.png);
     height: 105vh;
@@ -52,28 +41,49 @@ header{
     
 }
 .logo{
-    height: 60px;
+    height: 90px;
     width: auto;
-    margin-top: 39px;
+    margin-top: 58px;
     float: left;
-    margin-left: 200px;
+    margin-left: 50px;
 }
-.main-nav{
-    float: right;
+/* Nav bar */
+nav{
+    width: 80%;
+    height: 150px;
+    border-top: 1px solid black;
+    background-color: #111;
+    margin-left: 240px;
+    position: sticky;
+    top: 50px;
 }
-.main-nav li{
-display: inline-block;
-margin-top: 55px;
-margin-left:0px;
-
+nav ul{
+    display: flex;
+    padding-top: 80px;
 }
-ul li a{
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    list-style: none;
+    display: block;
+    padding: 0 20px;
+    color: azure;
     text-decoration: none;
-    color: beige;
-    font-size: 15px;
+    text-transform: uppercase;
+    font-weight:400;
+    font-size: 20px;
+    margin-left: 80px;
 
-    
 }
+nav ul li a.active{
+    background-color: red;
+}
+nav ul li a:hover{
+    background-color: darkgray;
+}
+/* Nav bar */
+
 .text-part{
     position: absolute;
     top: 50%;
@@ -84,64 +94,289 @@ ul li a{
 }
 .btn{
     background-color: rgb(226, 44, 11);
-    padding: 5px 20px;
+    padding: 10px 30px;
     color: antiquewhite;
     text-decoration: none;
     border-radius: 5px;
     display: inline-block;
 }
 
-/*2nd part */
+
 h2{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 60px;
 }
-img{
+/* ////First part end//// */
 
+/* ///first section part start/// */
+/* .container{
+    width: 1180px;
+} */
+.container{
+    width: 1980px;
+    margin: 0 auto;
+   
 }
-.second-part{
-  display: flex;
-  text-align: center;
-}
-.half-width{
-    width: 50%;
-    padding-left:10%;
-}
-.half-width img{
-    width: 60%;
-    padding-right: 60px
-}
-.half-widths {
-    margin-right: 90px;
-    margin-top: 50px;
-}
-.second{
-    padding-left: 30px;
-}
-.three{
+.sh1{
+    font-size: 40px;
     text-align: center;
+    margin-top: 80px;
+}
+.First-categori{
+   display: flex;
+   text-align: justify;
+   margin-top: 90px;
+   justify-content: center;
+   align-items: center;
+}
+.categori{
+    width: 50%;
+    padding-left:4%;
+}
+.categori img{
+    width: 80%;
+   margin-left: 80px;
+} 
+.sea-food{
+    text-align: center;
+     margin-right: 35%; 
+}
+.categori-details{
+    font-size: 25px;
+    margin-top: 25px;
+    width: 50%;
 }
 p{
-    color: rgb(129, 125, 125);
+    font-size: 25px;
+    color: rgba(92, 83, 83, 0.781);
 }
-.third{
-    margin-top: 20px;
-    text-align: center;
+.second{
+    margin-left: 90px;
 }
-.half-widthss{
-    margin-left: 60px;
-    margin-top: 40px;
-    
+
+.categori-image{
+    margin-right: 80px;
 }
-.forth{
-    margin-top: 25px;
+.thai{
+    margin-bottom: 30%;
 }
 .btn2{
-    background-color: rgb(197, 27, 27);
-    padding: 4px 15px;
+    background-color: rgb(214, 18, 18);
+    text-decoration: none;
+    color: beige;
+    padding: 7px 30px;
+    margin-left: 20%;
+}
+.name{
+    margin-top: 20%;
+}
+/* ///first section part start/// */
+
+/* second section part start */
+.p-two{
+    color: black;
+}
+.man{
+    margin-bottom:10%;
+}
+/* second section part end */
+
+/* Third section part start */
+
+h4{
+    font-size: 30px;
+}
+
+.Third-section{
+    display: flex;
+}
+.third-part{
+    width: 40%;
+    background-image: url(kk/fish.png);
+    background-repeat: no-repeat;
+    display: flex;
+    box-shadow: 0px 18px 10px -15px #111;  
+  margin-right: 60px;
+ 
+}
+.name2{
+    margin-top: 80px;
+    margin-left: 189px;
+}
+.fish-details{
+ width: 100%;
+ margin-right: 60%;
+}
+.fish-fry{
+    margin-right: 50%;
+}
+.little-box{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(214, 18, 18);
+    border-radius: 80%;
+}
+.off{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.fish{
+    margin-top: 5%;
+    margin-left: 400px;
+    box-shadow: 50px;
+}
+p{
+    margin-bottom: 20px;
+    
+}
+.btn3{
+    background-color: rgb(214, 18, 18);
+    text-decoration: none;
+    color: beige;
+    padding: 7px 30px;
+    margin-left: 20px;
+    
+}
+.third-part2{
+    width: 40%;
+    background-image: url(kk/sushi.png);
+    background-repeat: no-repeat;
+    display: flex;
+    box-shadow: 0px 18px 10px -15px #111;  
+}
+.third-part3{
+    width: 40%;
+    background-image: url(kk/icecream.png);
+    background-repeat: no-repeat;
+    display: flex;
+    box-shadow:  30px gray;
+    margin-right: 60px;
+    box-shadow: 0px 18px 10px -15px #111;  
+}
+    
+.third-part4{
+    width: 40%;
+    background-image: url(kk/steak.png);
+    background-repeat: no-repeat;
+    display: flex;
+    box-shadow: 0px 18px 10px -15px #111;  
+    
+}
+.btn4{
+    background-color: rgb(189, 33, 6);
+    padding: 6px 40px;
     color: antiquewhite;
     text-decoration: none;
     display: inline-block;
-    margin-top: 90px;
+    margin-top: 130px;
+    font-size: 22px;
+     margin-left: 45% ;
+}
+.main-nav2{
+    color: black;
+}
+h5{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.452);
+    margin-right: 30px;
+
+}
+/* collage photo */
+.collage{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.coll{
+    color: red;
+}
+
+.card{
+    height: 370px;
+    background-color: gray;
+    color: white;
+    font-size: 40px;
+    width: 400px;
+    margin: 10px;
+}
+.cards-wrapper{
+    display: flex;
+    transition: ease 0.5s;
+}
+.display-area{
+width: 1680px;
+border: 1px solid black;
+overflow-x: hidden;
+margin: auto;
+}
+.dots-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.dot{
+    border: none;
+    background-color:rgb(0,0,0,0.3);
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    outline: none;
+}
+.dot:hover{
+    background:blue
+}
+.dot.active{
+    background:black
+}
+.one{
+   font-size: large;
+}
+/* last section */
+h4{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40px;
+}
+.h{
+    margin-top: 3%;
+    text-align: center;
+
+}
+.text{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 40px 60px
+}
+.last-img{
+background-image: url(kk/FHFResturent\ 4.png);
+background-repeat: no-repeat;
+}
+footer{
+    background-image: url(kk/FHFResturent\ 5.png);
+    background-repeat: no-repeat;
+    height:300px;
+    background-position: right;
+}
+.input{
+    margin-top: 40px;
+    height: 90px;
+    width: 800px;
+    padding: px;
+    border: 4px solid rgba(24, 21, 21, 0.247);
+    margin-left: 30%;
+}
+.btn5{
+    background-color:red;
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    font-size: 20px;
+    margin-left: 75%;
+  
 }
